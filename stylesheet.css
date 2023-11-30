@@ -13,19 +13,30 @@ h2 {
     position:relative;
     left: 66.66%;
     margin-bottom: 10px;
-    background-color: aqua;
     text-align: center;
-    border-style: solid;
-    border-color: red;
+    border-style: solid; 
+    border-color: black;
+    
 }
 
 p {
     margin-right: auto;
     margin-left: auto;
     width: 90%;
-    background-color: aliceblue;
 }
 
+#food_chicken{
+  background-color: rgb(230, 161, 127)
+}
+
+#food_sushi{
+  background-color: rgb(221, 223, 122)
+}
+
+#food_beef{
+  background-color: rgb(243, 70, 70);
+  color: whitesmoke;
+}
 
 /*         "*" is the selector that effects all elements
            border box means: content+padding+border = full width that I declare*/
@@ -38,7 +49,7 @@ p {
 
 .section {
     margin: 20px;
-    border: 3px solid black;
+    border: 1px solid black;
     background-color: darkgray;
   }
 
